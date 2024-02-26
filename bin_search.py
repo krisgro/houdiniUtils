@@ -1,7 +1,7 @@
 import math
 array = [1,2,3,4,5,6,7,8,9,11,12,32,34,54,56,76,78,98,100]
 
-def binary_search(numbers, value):
+def binarySearch(numbers, value):
     lo = 0
     hi = len(numbers)
     
@@ -18,5 +18,5 @@ def binary_search(numbers, value):
 
     return -1
 
-res = binary_search(array, 2)
+res = binarySearch(array, 2)
 #print(res)

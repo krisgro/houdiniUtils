@@ -21,7 +21,7 @@ test_cases = {
 all_test_cases_passed = []
 
 for test_case in test_cases.values():
-    res = bin_search.binary_search(test_case["array"], test_case["target"])
+    res = bin_search.binarySearch(test_case["array"], test_case["target"])
     if res == test_case["result"]:
         print("Test case passed")
         all_test_cases_passed.append(1)
