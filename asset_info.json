@@ -1,0 +1,16 @@
+{
+    "asset1": {
+        "id": "01",
+        "name": "obj1",
+        "link": "1gYDNdhPkpGQ5_FQdA2OGA__JvR760_Iw",
+        "author": "kris",
+        "company": "mycompany"
+    },
+    "asset2": {
+        "id": "02",
+        "name": "obj2",
+        "link": "1NjDeefH7b7d5Cjv21Sa1BS1z4YO8w53c",
+        "author": "kris",
+        "company": "mycompany"    
+    }
+}
