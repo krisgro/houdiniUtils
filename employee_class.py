@@ -1,5 +1,5 @@
 class Employee:
-    def __init__(self, first_name, last_name, age, role) -> None:
+    def __init__(self, first_name="", last_name="", age=0, role="") -> None:
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
@@ -29,8 +29,8 @@ class Employee:
         return value1 + "." + value2 + "@rebelway.com"
 
 
-em = Employee("Bob", "Some", "20", "junior artist")
-em.full_name = "Amy Something"
-print(em.email)
+#em = Employee("Bob", "Some", "20", "junior artist")
+#em.full_name = "Amy Something"
+#print(em.email)
 
 
