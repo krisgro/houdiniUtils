@@ -68,3 +68,13 @@ user7:
   department: "Development"
   role: "Development Manager"
   machine: "felipepesantez"
+
+user8:
+  url: ""
+  port: 5000
+  id: 31426
+  name: "Kris G"
+  age: 29
+  department: "Development"
+  role: "Development Manager"
+  machine: "Eagle"

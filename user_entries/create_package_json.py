@@ -6,6 +6,7 @@ with open("user_data.json", "r") as file:
     user_data = json.load(file)
 
 user_machine = os.getlogin()
+user_machine += " G" # Adding this line as my machine name does not have a surname as the class expects!
 json_dict = {}
 
 with open("packages/company_vars.json", "w") as env_file:
